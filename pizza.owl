@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>A pizza ontology that describes various pizzas
+based on their toppings.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AnchovyTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CaperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheesyPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DeepPanBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FourCheesePizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GreenPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HamTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HighCaloriePizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#InterestingPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#LowCaloriePizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MushroomTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonVegetarianPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OliveTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PrawnTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ProbeInconsistentTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#RedPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SalamiTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyBeefTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ThinAndCrispyBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TunaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#UnclosedPizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetarianPizza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCountryOfOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isToppingOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#England"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Example-Margherita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#QuattroFormaggio"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheesyPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#America"/>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#England"/>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#France"/>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Germany"/>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Italy"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FourCheesePizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectExactCardinality cardinality="4">
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HighCaloriePizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#InterestingPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectMinCardinality cardinality="3">
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#LowCaloriePizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonVegetarianPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectComplementOf>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetarianPizza"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+                        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetarianPizza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+                    <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AnchovyTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AnchovyTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CaperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CaperTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DeepPanBase"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GreenPepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GreenPepperTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HamTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HamTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCountryOfOrigin"/>
+            <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Italy"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MushroomTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MushroomTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OliveTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OliveTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OnionTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OnionTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PrawnTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PrawnTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ProbeInconsistentTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ProbeInconsistentTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ProbeInconsistentTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#RedPepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#RedPepperTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SalamiTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SalamiTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OliveTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#OliveTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyBeefTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyBeefTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ThinAndCrispyBase"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TomatoTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TunaTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TunaTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#UnclosedPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#UnclosedPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SohoPizza"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#AnchovyTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PrawnTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TunaTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#CheeseTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DeepPanBase"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ThinAndCrispyBase"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GreenPepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalapenoPepperTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#RedPepperTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HamTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PepperoniTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SalamiTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicyBeefTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hot"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Medium"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mild"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MeatTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SeafoodTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetableTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MozzarellaTopping"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#ParmezanTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonVegetarianPizza"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#VegetarianPizza"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Example-Margherita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Country"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FourCheesePizza"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#QuattroFormaggio"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Example-Margherita"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#QuattroFormaggio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">723</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isToppingOf"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasIngredient"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isIngredientOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isToppingOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasIngredient"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isIngredientOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasBase"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaBase"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSpiciness"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#SpicinessValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasTopping"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PizzaTopping"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isBaseOf"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Pizza"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasCalorificContentValue"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AmericanHotPizza</IRI>
+        <Literal>A pizza that only has Mozarella and Tomato toppings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AmericanaPizza</IRI>
+        <Literal>A pizza that only has Mozarella and Tomato toppings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#MargheritaPizza</IRI>
+        <Literal>A pizza that only has Mozarella and Tomato toppings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#ProbeInconsistentTopping</IRI>
+        <Literal>This class should be inconsistent when the ontology is classified.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#SohoPizza</IRI>
+        <Literal>A pizza that only has Mozarella and Tomato toppings</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
